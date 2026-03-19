@@ -2,4 +2,8 @@
 :root {
     --main-font: 'Inter';
     --accent-font: 'PressStart2P-Regular';
+    --bg-color: #fff;
+    --color: #000;
+    --stroke-color: #fff;
+    --heart-color: red;
 }
