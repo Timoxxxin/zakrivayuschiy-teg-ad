@@ -370,3 +370,24 @@
   white-space: normal;
   max-inline-size: 234px;
 }
+
+
+@media screen and (width <= 375px) {
+  .card__image-label {
+    top: 25px;
+    right: 11px;
+  }
+}
+
+@media screen and (width >= 500px) {
+  .floppy {
+    block-size: 21px;
+    inline-size: 21px;
+  }
+}
+
+@media screen and (width > 375px) {
+  .button-remember {
+    flex-direction: row;
+  }
+}
