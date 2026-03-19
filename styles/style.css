@@ -10,6 +10,14 @@
 
 */
 
+@supports (-webkit-text-stroke: 1px #fff) or (text-stroke: 1px #fff) {
+  .card__image-label {
+    text-stroke: 1px var(--stroke-color);
+    -webkit-text-stroke: 1px var(--stroke-color);
+    text-shadow: none;
+  }
+}
+
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
